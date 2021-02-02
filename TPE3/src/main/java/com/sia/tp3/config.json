@@ -1,0 +1,44 @@
+[
+  {
+    "personaje": "defensor",
+    "fuerza": 1.0,
+    "agilidad": 0.9,
+    "pericia": 0.7,
+    "resistencia": 1.2,
+    "vida": 1.1,
+
+    "datos": "src/main/java/com/sia/tp3/fulldata/",
+    "generar_graficos": true,
+    "repetir_poblacion_inicial": true,
+    "semilla_poblacion_inicial": 20,
+    "poblacion": 500,
+    "probabilidad_cruce": 0.7,
+    "metodo_cruce": "anular",
+    "probabilidad_cruce_uniforme": 0.6,
+
+    "metodo_corte": "contenido",
+    "optimo": 59.0,
+    "generaciones_a_verificar": 100,
+    "porcentaje": 0.75,
+    "generaciones": 1000,
+
+    "metodo_seleccion_1": "elite",
+    "seleccion1_usa_boltzman": false,
+    "metodo_seleccion_2": "ranking",
+    "seleccion2_usa_boltzman": false,
+    "metodo_seleccion_3": "elite",
+    "seleccion3_usa_boltzman": false,
+    "metodo_seleccion_4": "torneos deterministica",
+    "seleccion4_usa_boltzman": false,
+    "metodo_reemplazo": "reemplazo 2",
+    "cantidad_de_reemplazo": 200,
+    "porcentaje_de_personajes_torneos": 0.6,
+    "A": 0.1,
+    "B": 0.1,
+
+    "metodo_mutacion": "gen",
+    "probabilidad_de_mutacion": 0.1,
+    "mutacion_uniforme": true,
+    "base_exponencial_mutacion_no_uniforme": 0.998
+  }
+]
